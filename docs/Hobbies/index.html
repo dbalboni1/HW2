@@ -12,23 +12,60 @@
     <title>Dan Balboni Resume</title>
 
     <style>
-        table,
-        th,
-        td {
-            border: 3px solid black;
+        .navHead {
+            margin-left: 10%;
+            margin-right: 10%;
+            max-width: 80%;
+        }
+        .nav {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .body {
+            border: 1px solid white;
             border-collapse: collapse;
+        }
+        th, td {
+            background-color: #96D4D4;
+        }
+
+        button {
+            background-color: transparent;
+            border: transparent;
         }
     </style>
 
 </head>
+
 <body>
     <h1>Interests & Hobbies</h1>
 
-    <p>
-        <a href="https://dbalboni1.github.io/HW2/index.html">Home</a> <br>
-        <a href="https://dbalboni1.github.io/HW2/Career/index.html">Career Summary</a> <br>
-        <a href="https://dbalboni1.github.io/HW2/Education/index.html">Education</a> <br>
-    </p>
+    <table class="navHead">
+        <tr>
+            <td class="nav">
+                <button onclick="window.location.href='https://dbalboni1.github.io/HW2/';">
+                    Home
+                </button>
+            </td>
+
+            <td class="nav">
+                <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Career/index.html';">
+                    Career Summary          
+                </button>
+            </td>
+
+            <td class="nav">
+                <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Education/index.html';">
+                    Education & Qualifications
+                </button>
+            </td>
+            
+        </tr>
+    </table>
+
+    <br>
     
     <table>
         <caption>
@@ -66,7 +103,14 @@
         </tfoot>
     </table>
 
-    <img src="moon.jpg" height="250" alt="Moon">
+    <ol>
+        <a href="https://www.instagram.com/goon.zaga/">
+            <li><img src="Goon Logo.png" height="100" alt="Logo"></li>
+        </a>
+        <li>Photo Editing/Photoshop</li>
+        <li>Breathing</li>
+    </ol>
+
 
     <link rel="icon" href="octopus.png">
 </body>

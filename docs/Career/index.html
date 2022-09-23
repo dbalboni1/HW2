@@ -12,18 +12,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> 9/12 CPSC 322 Participation </title>
         <style>
-            table.header {
+            .navHead {
+                margin-left: 10%;
+                margin-right: 10%;
+                max-width: 80%;
+            }
+            .nav {
                 border: 1px solid black;
                 border-radius: 10px;
-                width: max-content;
+                padding: 10px;
             }
 
-            table, th, td {
+            .body {
                 border: 1px solid white;
                 border-collapse: collapse;
             }
             th, td {
                 background-color: #96D4D4;
+            }
+
+            button {
+                background-color: transparent;
+                border: transparent;
             }
         </style>
     </head>
@@ -33,20 +43,24 @@
             Career Summary
         </h1>
 
-        <table class="header">
+        <table class="navHead">
             <tr>
-                <td>
-                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/docs/index.html';">
+                <td class="nav">
+                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/';">
                         Home
                     </button>
                 </td>
 
-                <td>
-                    <a href="https://dbalboni1.github.io/HW2/Education/index.html">Education & Qualifation</a>
+                <td class="nav">
+                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Education/index.html';">
+                        Education & Qualifications
+                    </button>
                 </td>
 
-                <td>
-                    <a href="https://dbalboni1.github.io/HW2/Hobbies/index.html">Interests & Hobbies</a>
+                <td class="nav">
+                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Hobbies/index.html';">
+                        Interests & Hobbies
+                    </button>
                 </td>
                 
             </tr>

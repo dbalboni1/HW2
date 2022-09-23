@@ -11,6 +11,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dan Balboni Resume</title>
+
+        <style>
+            .navHead {
+                margin-left: 10%;
+                margin-right: 10%;
+                max-width: 80%;
+            }
+            .nav {
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            button {
+                background-color: transparent;
+                border: transparent;
+            }
+            .body {
+                border: 1px solid white;
+                border-collapse: collapse;
+            }
+            th, td {
+                background-color: #96D4D4;
+            }
+        </style>
     </head>
 
     <body>
@@ -18,13 +42,32 @@
             <strong>Dan  Balboni</strong>
         </h1>
 
-        <img src="Resume Photo.jfif" height="250" alt="Resume Photo">
+        <center>
+            <img src="Resume Photo.jfif" height="250" width="auto" alt="Resume Photo">
+        </center>
 
-        <p>
-            <a href="https://dbalboni1.github.io/HW2/Career/index.html">Career Summary</a> <br>
-            <a href="https://dbalboni1.github.io/HW2/Education/index.html">Education & Qualifation</a> <br>
-            <a href="https://dbalboni1.github.io/HW2/Hobbies/index.html">Interests & Hobbies</a> <br>
-        </p>
+        <table class="navHead">
+            <tr>
+                <td class="nav">
+                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Career/index.html';">
+                        Career Summary          
+                    </button>
+                </td>
+    
+                <td class="nav">
+                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Education/index.html';">
+                        Education & Qualifications
+                    </button>
+                </td>
+
+                <td class="nav">
+                    <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Hobbies/index.html';">
+                        Hobbies & Interests
+                    </button>
+                </td>
+                
+            </tr>
+        </table>
 
         <p>
             <strong> Intro </strong> <br>

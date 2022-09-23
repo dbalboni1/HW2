@@ -13,11 +13,28 @@
     <title>Dan Balboni Resume</title>
 
     <style>
-        table,
-        th,
-        td {
-            border: 3px solid black;
+        .navHead {
+            margin-left: 10%;
+            margin-right: 10%;
+            max-width: 80%;
+        }
+        .nav {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .body {
+            border: 1px solid white;
             border-collapse: collapse;
+        }
+        th, td {
+            background-color: #96D4D4;
+        }
+
+        button {
+            background-color: transparent;
+            border: transparent;
         }
     </style>
 </head>
@@ -25,11 +42,28 @@
 <body>
     <h1>Education & Qualifications</h1>
 
-    <p>
-        <a href="https://dbalboni1.github.io/HW2/index.html">Home</a> <br>
-        <a href="https://dbalboni1.github.io/HW2/Career/index.html">Career Summary</a> <br>
-        <a href="https://dbalboni1.github.io/HW2/Hobbies/index.html">Interests & Hobbies</a> <br>
-    </p>
+    <table class="navHead">
+        <tr>
+            <td class="nav">
+                <button onclick="window.location.href='https://dbalboni1.github.io/HW2/';">
+                    Home
+                </button>
+            </td>
+
+            <td class="nav">
+                <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Career/index.html';">
+                    Career Summary          
+                </button>
+            </td>
+
+            <td class="nav">
+                <button onclick="window.location.href='https://dbalboni1.github.io/HW2/Hobbies/index.html';">
+                    Interests & Hobbies
+                </button>
+            </td>
+            
+        </tr>
+    </table>
 
     <table>
         <caption>
